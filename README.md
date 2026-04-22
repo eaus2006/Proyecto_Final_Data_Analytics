@@ -38,3 +38,13 @@ databrick o colab
 - H1: "Las propiedades ubicadas a menos de 500 metros de una estación de metro principal en Manhattan tienen un precio por noche un 25% superior al promedio del distrito".
 - H2: "Existe una correlación negativa entre el índice de criminalidad del vecindario y la tasa de ocupación (medida por el número de reseñas)".
 - H3: "Los listados gestionados por 'Professional Hosts' (anfitriones con más de 3 propiedades) mantienen una disponibilidad anual menor pero precios más estables que los anfitriones individuales".
+
+
+Matias: Buscar data fuentes de enrequisimiento
+
+Lu: Hipotesis y objetivos
+
+Eurymar: Plan, descripcion del problema y datos
+
+Giraldo y Manuel: 4. EDA Inicial: al menos 5 visualizaciones comentadas (distribuciones, valores nulos, primeras
+correlaciones) Y LO DE IA
