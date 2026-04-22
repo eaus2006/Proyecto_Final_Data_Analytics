@@ -11,7 +11,7 @@ Integrantes:
 - Matias Amaya
 - Manuel
 
-Roles sugeridos:
+# Roles sugeridos:
 Data Analyst: Encargado del Notebook y limpieza de datos.
 Business Strategist: Definición del problema e hipótesis.
 Documentation Lead: Redacción del informe y gestión de GitHub.2. Descripción del Problema de Negocio 
@@ -20,3 +20,10 @@ Contexto: Trabajamos para "Skyline Analytics", una consultora boutique que aseso
 
 El Problema: El mercado de alquileres de corto plazo en NYC es extremadamente competitivo y está sujeto a regulaciones estrictas y variaciones de demanda por zonas. Los nuevos propietarios no saben cómo fijar precios competitivos ni qué características (amenities, ubicación, tipo de habitación) garantizan una alta tasa de ocupación sin sacrificar el margen de ganancia.
 Relevancia: Optimizar el precio basándose en datos puede incrementar los ingresos anuales de un anfitrión hasta en un 20-30% y reducir los periodos de propiedad vacía
+
+# Descripción de los Datos Fuente Principal: 
+New York City Airbnb Open Data (Kaggle). Contiene información sobre listados, disponibilidad, precios y ubicación geográfica de más de 48,000 registros en 2019.
+
+Fuente de Enriquecimiento: Índice de Criminalidad por Vecindario de la Policía de Nueva York (NYPD Complaint Data) o Puntos de Interés (POIs) cercanos a estaciones de Metro.
+
+Variables Clave: price (target), neighbourhood_group (Manhattan, Brooklyn, etc.), room_type, minimum_nights, number_of_reviews (proxy de ocupación).
