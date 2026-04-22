@@ -28,3 +28,13 @@ New York City Airbnb Open Data (Kaggle). Contiene información sobre listados, d
 Fuente de Enriquecimiento: Índice de Criminalidad por Vecindario de la Policía de Nueva York (NYPD Complaint Data) o Puntos de Interés (POIs) cercanos a estaciones de Metro.
 
 Variables Clave: price (target), neighbourhood_group (Manhattan, Brooklyn, etc.), room_type, minimum_nights, number_of_reviews (proxy de ocupación).
+
+# EDA inicial
+
+databrick o colab
+
+# Hipótesis de Negocio 
+
+- H1: "Las propiedades ubicadas a menos de 500 metros de una estación de metro principal en Manhattan tienen un precio por noche un 25% superior al promedio del distrito".
+- H2: "Existe una correlación negativa entre el índice de criminalidad del vecindario y la tasa de ocupación (medida por el número de reseñas)".
+- H3: "Los listados gestionados por 'Professional Hosts' (anfitriones con más de 3 propiedades) mantienen una disponibilidad anual menor pero precios más estables que los anfitriones individuales".
