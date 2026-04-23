@@ -32,6 +32,13 @@ Variables Clave: price (target), neighbourhood_group (Manhattan, Brooklyn, etc.)
 # EDA inicial
 
 databrick o colab
+5 visualizaciones concectadas al mercado digital y precios de alojamientos 
+1. Distribución de precios
+2. Precio por ubicación
+3. Tipo de habitación vs precio de la habitación
+4. Demanda en base a los reviews de los huespedes vs los precios ofrecidos
+5. Evlauar la disponibilidad vs precios
+6. Feature Engineering 
 
 # Hipótesis de Negocio 
 
