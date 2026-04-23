@@ -9,7 +9,7 @@ Integrantes:
 - Eurymar Umbria
 - Giraldo Ruiz
 - Matias Amaya
-- Manuel
+- Manuel Aguirre
 
 # Roles sugeridos:
 - Data Analyst: Encargado del Notebook y limpieza de datos.
