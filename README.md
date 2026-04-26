@@ -33,12 +33,12 @@ Variables Clave: price (target), neighbourhood_group (Manhattan, Brooklyn, etc.)
 
 databrick o colab
 5 visualizaciones concectadas al mercado digital y precios de alojamientos 
-1. Distribución de precios
-2. Precio por ubicación
-3. Tipo de habitación vs precio de la habitación
-4. Grado de criminalidad en base a la demanda de alquiler
-5. Evlauar la disponibilidad vs precios
-6. Feature Engineering 
+1. Precio de venta por precio de alquiler
+2. Ubicación por precio de alquiler
+3. Grado de criminalidad por precio de alquiler
+4. Tipo de habitación por precio de alquiler
+6. Evlauar la disponibilidad por precio de alquiler
+
 
 # Hipótesis de Negocio 
 
