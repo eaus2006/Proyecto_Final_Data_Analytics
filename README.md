@@ -70,33 +70,33 @@ Collab
 Desarrollar un análisis de datos que permita identificar el equilibrio óptimo entre rentabilidad y riesgo en el mercado de alquileres de corto plazo en Nueva York, considerando el precio de alquiler, el valor de las propiedades, la ubicación y el nivel de criminalidad, con el fin de guiar decisiones estratégicas de inversión en Airbnb.
 
 # Objetivos Específicos
-Analizar la relación entre la ubicación geográfica (neighbourhood_group) y el precio de alquiler (price).
-Evaluar la relación entre precio (price) y demanda (number_of_reviews) como proxy de ocupación.
-Analizar cómo la disponibilidad (availability_365) refleja estabilidad de ingresos y ocupación.
-Evaluar el impacto del tipo de alojamiento (room_type) en el precio y la demanda.
-Analizar el efecto del nivel de criminalidad (crime_rate) sobre la demanda y estabilidad del alquiler.
-Evaluar la relación entre el valor de mercado de las propiedades (average_sale_price) y el precio de Airbnb.
-Identificar patrones de comportamiento entre anfitriones profesionales (calculated_host_listings_count) y anfitriones individuales.
-Determinar qué distritos presentan el mejor equilibrio entre ingreso potencial y riesgo, identificando el “punto dulce” de inversión.
+- Analizar la relación entre la ubicación geográfica (neighbourhood_group) y el precio de alquiler (price).
+- Evaluar la relación entre precio (price) y demanda (number_of_reviews) como proxy de ocupación.
+- Analizar cómo la disponibilidad (availability_365) refleja estabilidad de ingresos y ocupación.
+- Evaluar el impacto del tipo de alojamiento (room_type) en el precio y la demanda.
+- Analizar el efecto del nivel de criminalidad (crime_rate) sobre la demanda y estabilidad del alquiler.
+- Evaluar la relación entre el valor de mercado de las propiedades (average_sale_price) y el precio de Airbnb.
+- Identificar patrones de comportamiento entre anfitriones profesionales (calculated_host_listings_count) y anfitriones individuales.
+- Determinar qué distritos presentan el mejor equilibrio entre ingreso potencial y riesgo, identificando el “punto dulce” de inversión.
 
 # Hipótesis de Negocio (preguntas)
-H1 (Ubicación premium y precio):
+- H1 (Ubicación premium y precio):
 ¿Las propiedades ubicadas en Manhattan y cerca de estaciones de metro principales presentan precios por noche significativamente mayores (por ejemplo, al menos 25% por encima del promedio del distrito)?
-H2 (Criminalidad vs demanda):
+- H2 (Criminalidad vs demanda):
 ¿Existe una relación negativa entre el índice de criminalidad del vecindario (crime_rate) y la demanda del alojamiento (number_of_reviews)?
-H3 (Hosts profesionales):
+- H3 (Hosts profesionales):
 ¿Los anfitriones con múltiples propiedades (más de 3 listings) presentan menor disponibilidad anual (availability_365) pero precios más estables en comparación con anfitriones individuales?
-H4 (Precio vs demanda):
+- H4 (Precio vs demanda):
 ¿Existe una relación inversa entre el precio de alquiler (price) y la cantidad de reseñas (number_of_reviews), indicando que precios más altos reducen la ocupación?
-H5 (Criminalidad vs estabilidad):
+- H5 (Criminalidad vs estabilidad):
 ¿Los distritos con niveles altos de criminalidad (niveles 4 o 5) presentan mayor variabilidad en la disponibilidad (availability_365), reflejando menor estabilidad en la demanda?
-H6 (Valor de propiedad vs precio Airbnb):
+- H6 (Valor de propiedad vs precio Airbnb):
 ¿Existe una correlación positiva entre el valor promedio de venta de las propiedades (average_sale_price) y el precio de alquiler diario (price)?
-H7 (Rentabilidad vs costo de entrada):
+- H7 (Rentabilidad vs costo de entrada):
 ¿Los distritos con menor costo de adquisición presentan una mejor relación entre precio de alquiler y demanda, generando un retorno de inversión más atractivo que distritos de alto valor como Manhattan?
-H8 (Tipo de propiedad y retorno):
+- H8 (Tipo de propiedad y retorno):
 ¿Los alojamientos tipo “Entire home/apt” generan mayor ingreso potencial a pesar de tener menor frecuencia de reseñas en comparación con habitaciones privadas o compartidas?
-H9 (Punto dulce de inversión):
+- H9 (Punto dulce de inversión):
 ¿Existe un conjunto de distritos que logran un equilibrio óptimo entre precio de alquiler, nivel de criminalidad y demanda, maximizando el ingreso esperado y minimizando el riesgo para el inversionista?
 
 
