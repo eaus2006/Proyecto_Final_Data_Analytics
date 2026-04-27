@@ -113,11 +113,3 @@ Desarrollar un análisis basado en el dataset de Airbnb NYC que permita identifi
 si usaron IA generativa, detallar qué prompts usaron y cómo
 validaron los resultados
 
-Matias: Buscar data fuentes de enrequisimiento
-
-Lu: Hipotesis y objetivos
-
-Eurymar: Plan, descripcion del problema y datos
-
-Giraldo y Manuel: 4. EDA Inicial: al menos 5 visualizaciones comentadas (distribuciones, valores nulos, primeras
-correlaciones) Y LO DE IA
