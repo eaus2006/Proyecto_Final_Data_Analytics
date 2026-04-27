@@ -12,10 +12,11 @@ Integrantes:
 - Manuel Aguirre
 
 # Roles sugeridos:
-- Data Analyst: Encargado del Notebook y limpieza de datos.
-- Business Strategist: Definición del problema e hipótesis.
-- Documentation Lead: Redacción del informe y gestión de GitHub.2. Descripción del Problema de Negocio
-- faltan roles xxxx
+- Matias (Data Engineer & Lead Analyst): Búsqueda de fuentes de enriquecimiento y ejecución técnica del EDA (limpieza de datos y pre-procesamiento).
+- Manuel (Data Analyst & Integration Specialist): Apoyo en búsqueda y limpieza de datos de enriquecimiento, y desarrollo de la primera mitad de las visualizaciones del EDA.
+- Giraldo (Data Visualization Specialist): Desarrollo de la segunda mitad de las visualizaciones interpretadas del EDA inicial.
+- Eurymar (Project Manager & Documentation): Redacción del problema de negocio, objetivo principal, descripción de los datos, plan de trabajo Etapa 2 y gestión del repositorio.
+- Luciana (Business Strategist): Definición de objetivos específicos e hipótesis de negocio en formato de pregunta.
 
 Empresa Ficticia: SafeInvest NYC Analytics (Consultora de Inversiones Inmobiliarias).
 
@@ -53,6 +54,9 @@ Descripción: Una escala numérica (1 al 5) asignada a cada distrito donde 1 rep
 Uso en el proyecto: Variable categórica (crime_rate) para analizar si la percepción de seguridad limita los precios de los alojamientos.
 
 # EDA inicial
+
+ EDA Inicial: al menos 5 visualizaciones comentadas (distribuciones, valores nulos, primeras
+correlaciones).
 
 Collab
 5 visualizaciones concectadas al mercado digital y precios de alojamientos 
