@@ -14,20 +14,43 @@ Integrantes:
 # Roles sugeridos:
 - Data Analyst: Encargado del Notebook y limpieza de datos.
 - Business Strategist: Definición del problema e hipótesis.
-- Documentation Lead: Redacción del informe y gestión de GitHub.2. Descripción del Problema de Negocio 
+- Documentation Lead: Redacción del informe y gestión de GitHub.2. Descripción del Problema de Negocio
+- faltan roles xxxx
 
-Contexto: Trabajamos para "Skyline Analytics", una consultora boutique que asesora a nuevos inversionistas de Real Estate en Nueva York.
+Empresa Ficticia: SafeInvest NYC Analytics (Consultora de Inversiones Inmobiliarias).
 
-El Problema: El mercado de alquileres de corto plazo en NYC es extremadamente competitivo y está sujeto a regulaciones estrictas y variaciones de demanda por zonas. Los nuevos propietarios no saben cómo fijar precios competitivos ni qué características (amenities, ubicación, tipo de habitación) garantizan una alta tasa de ocupación sin sacrificar el margen de ganancia.
+# El Problema:
 
-Relevancia: Optimizar el precio basándose en datos puede incrementar los ingresos anuales de un anfitrión hasta en un 20-30% y reducir los periodos de propiedad vacía
+Los inversionistas que buscan entrar al mercado de Airbnb en Nueva York se enfrentan a un dilema de rentabilidad y riesgo: las zonas con mayor valor de propiedad (como Manhattan) tienen precios de alquiler más altos pero costos de adquisición masivos. Por otro lado, zonas más económicas podrían parecer atractivas, pero presentan variaciones en la seguridad (crime rate) que pueden ahuyentar a la demanda o depreciar el valor del alquiler.
+
+Actualmente, no existe una herramienta que cruce el costo de adquisición de la propiedad, la tasa de criminalidad del distrito y el precio potencial de alquiler para identificar el "punto dulce" de inversión (ROI) donde se maximice el ingreso minimizando el riesgo del entorno.
+
+Pregunta Central:
+¿Cómo afecta la ubicación geográfica —medida a través del costo de mercado de la propiedad y el índice de criminalidad— en la fijación de precios de los alojamientos Airbnb en NYC, y en qué distritos se encuentra el mejor equilibrio entre seguridad y rentabilidad para un inversionista?
+
+# Objetivo Principal del Proyecto
+El objetivo de esta investigación es identificar las zonas geográficas en la ciudad de Nueva York que ofrecen la mayor eficiencia de inversión inmobiliaria para alquileres de corto plazo (Airbnb).
+
+Esto se logrará mediante el análisis cruzado de la rentabilidad esperada (precios de alquiler), el riesgo del entorno (índice de criminalidad) y el costo de capital (valor de venta de mercado), permitiendo a los inversionistas de nuestra consultora tomar decisiones basadas en datos que equilibren la seguridad del huésped con el retorno de inversión (ROI).
+
 
 # Descripción de los Datos Fuente Principal: 
-New York City Airbnb Open Data (Kaggle). Contiene información sobre listados, disponibilidad, precios y ubicación geográfica de más de 48,000 registros en 2019.
+Para este proyecto, hemos integrado tres fuentes de datos distintas para obtener una visión multidimensional del mercado:
 
-Fuente de Enriquecimiento: Índice de Criminalidad por Vecindario de la Policía de Nueva York (NYPD Complaint Data) o Puntos de Interés (POIs) cercanos a estaciones de Metro.
+- Dataset Base: NYC Airbnb Open Data (2019):
+Fuente base: Kaggle.
+Descripción: Contiene información detallada sobre los listados de Airbnb en Nueva York, incluyendo geolocalización (latitud/longitud), tipo de habitación, precio por noche, noches mínimas y volumen de reseñas.
+Variables clave utilizadas: neighbourhood_group, price, availability_365, latitude, longitude.
 
-Variables Clave: price (target), neighbourhood_group (Manhattan, Brooklyn, etc.), room_type, minimum_nights, number_of_reviews (proxy de ocupación).
+- Fuente de Enriquecimiento 1: NYC Rolling Sales Data:
+Fuente: NYC Department of Finance.
+Descripción: Registros de ventas de propiedades inmobiliarias en los cinco distritos de Nueva York.
+Uso en el proyecto: Se calculó el average_sale_price por distrito para contrastar el costo de adquisición de una propiedad frente a su potencial de renta en Airbnb.
+
+- Fuente de Enriquecimiento 2: Escala de Seguridad por Distrito (Crime Index):
+Fuente: Elaboración propia basada en reportes históricos de criminalidad por condado.
+Descripción: Una escala numérica (1 al 5) asignada a cada distrito donde 1 representa menor incidencia y 5 mayor incidencia.
+Uso en el proyecto: Variable categórica (crime_rate) para analizar si la percepción de seguridad limita los precios de los alojamientos.
 
 # EDA inicial
 
@@ -66,6 +89,19 @@ Desarrollar un análisis basado en el dataset de Airbnb NYC que permita identifi
 * H5 (Hosts profesionales): Los anfitriones con mayor número de propiedades (calculated_host_listings_count) tienden a manejar precios más homogéneos y presentan mayor cantidad de reseñas promedio que los anfitriones con pocas propiedades.
 * H6 (Distribución de precios): La distribución del precio (price) presenta alta dispersión y presencia de valores atípicos, lo que indica un mercado heterogéneo con diferentes segmentos de oferta.
 * H7 (Ubicación vs demanda): Los distritos con precios más altos (como Manhattan) no necesariamente presentan la mayor cantidad de reseñas, lo que sugiere una posible relación entre precio elevado y menor volumen de demanda.
+
+
+# 6. Plan de Trabajo Etapa 2 (Semanas 7-14)
+
+| Semana | Actividad Principal | Responsable(s) |
+| :--- | :--- | :--- |
+| **7 - 8** | **Analítica Diagnóstica:** Validación de las 3 hipótesis mediante análisis bivariado y multivariado. | Data Analytics Lead |
+| **9 - 10** | **Construcción del Dashboard:** Diseño de visualizaciones interactivas que respondan a preguntas de negocio. | Visualization Expert |
+| **11** | **Analítica Predictiva:** Implementación de un modelo simple (ej. regresión para predecir precios). | Data Analytics Lead |
+| **12** | **Análisis Prescriptivo:** Creación de escenarios "¿qué pasaría si...?" y redacción de recomendaciones estratégicas. | Business Strategist |
+| **13** | **Documentación Final y QA:** Consolidación del informe en GitHub y revisión de calidad del Notebook. | Documentation & QA Manager |
+| **13** | **Preparación de la Presentación:** Diseño de diapositivas (máx. 12) y ensayo de la exposición oral. | Todo el Equipo |
+| **14** | **Entrega PC2:** Carga de archivos finales y presentación ante el directorio de la empresa. | Todo el Equipo |
 
 
 Matias: Buscar data fuentes de enrequisimiento
