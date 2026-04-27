@@ -66,33 +66,38 @@ Collab
 4. Tipo de habitación por precio de alquiler
 5. Evlauar la disponibilidad por precio de alquiler
 
-# Hipótesis de Negocio 
-
-- H1: "Las propiedades ubicadas a menos de 500 metros de una estación de metro principal en Manhattan tienen un precio por noche un 25% superior al promedio del distrito".
-- H2: "Existe una correlación negativa entre el índice de criminalidad del vecindario y la tasa de ocupación (medida por el número de reseñas)".
-- H3: "Los listados gestionados por 'Professional Hosts' (anfitriones con más de 3 propiedades) mantienen una disponibilidad anual menor pero precios más estables que los anfitriones individuales".
-
-
 # Objetivo General
-Desarrollar un análisis basado en el dataset de Airbnb NYC que permita identificar los principales factores que influyen en el precio y la demanda de alojamientos de corto plazo, con el fin de optimizar la fijación de precios y maximizar el ingreso potencial de los anfitriones.
-
+Desarrollar un análisis de datos que permita identificar el equilibrio óptimo entre rentabilidad y riesgo en el mercado de alquileres de corto plazo en Nueva York, considerando el precio de alquiler, el valor de las propiedades, la ubicación y el nivel de criminalidad, con el fin de guiar decisiones estratégicas de inversión en Airbnb.
 
 # Objetivos Específicos
-* Analizar la relación entre el precio (price) y la ubicación geográfica (neighbourhood_group).
-* Evaluar el impacto del tipo de habitación (room_type) sobre el precio de los alojamientos.
-* Analizar la relación entre la demanda del alojamiento (medida por number_of_reviews) y el precio.
-* Evaluar cómo la disponibilidad anual (availability_365) se relaciona con el precio y la demanda.
-* Identificar patrones de comportamiento entre anfitriones según la cantidad de propiedades (calculated_host_listings_count).
-* Explorar la distribución de precios para detectar valores atípicos y rangos representativos del mercado.
+Analizar la relación entre la ubicación geográfica (neighbourhood_group) y el precio de alquiler (price).
+Evaluar la relación entre precio (price) y demanda (number_of_reviews) como proxy de ocupación.
+Analizar cómo la disponibilidad (availability_365) refleja estabilidad de ingresos y ocupación.
+Evaluar el impacto del tipo de alojamiento (room_type) en el precio y la demanda.
+Analizar el efecto del nivel de criminalidad (crime_rate) sobre la demanda y estabilidad del alquiler.
+Evaluar la relación entre el valor de mercado de las propiedades (average_sale_price) y el precio de Airbnb.
+Identificar patrones de comportamiento entre anfitriones profesionales (calculated_host_listings_count) y anfitriones individuales.
+Determinar qué distritos presentan el mejor equilibrio entre ingreso potencial y riesgo, identificando el “punto dulce” de inversión.
 
-# Hipótesis de Negocio
-* H1 (Ubicación y precio): Las propiedades ubicadas en Manhattan presentan un precio promedio por noche significativamente mayor en comparación con otros distritos (neighbourhood_group).
-* H2 (Tipo de habitación): Los alojamientos tipo “Entire home/apt” tienen precios más altos en promedio que los tipos “Private room” y “Shared room”.
-* H3 (Precio vs demanda): Existe una relación inversa entre el precio (price) y la cantidad de reseñas (number_of_reviews), lo que indica que precios más altos tienden a reducir la demanda.
-* H4 (Disponibilidad vs demanda): Las propiedades con menor disponibilidad anual (availability_365) presentan un mayor número de reseñas, lo que sugiere una mayor ocupación.
-* H5 (Hosts profesionales): Los anfitriones con mayor número de propiedades (calculated_host_listings_count) tienden a manejar precios más homogéneos y presentan mayor cantidad de reseñas promedio que los anfitriones con pocas propiedades.
-* H6 (Distribución de precios): La distribución del precio (price) presenta alta dispersión y presencia de valores atípicos, lo que indica un mercado heterogéneo con diferentes segmentos de oferta.
-* H7 (Ubicación vs demanda): Los distritos con precios más altos (como Manhattan) no necesariamente presentan la mayor cantidad de reseñas, lo que sugiere una posible relación entre precio elevado y menor volumen de demanda.
+# Hipótesis de Negocio (preguntas)
+H1 (Ubicación premium y precio):
+¿Las propiedades ubicadas en Manhattan y cerca de estaciones de metro principales presentan precios por noche significativamente mayores (por ejemplo, al menos 25% por encima del promedio del distrito)?
+H2 (Criminalidad vs demanda):
+¿Existe una relación negativa entre el índice de criminalidad del vecindario (crime_rate) y la demanda del alojamiento (number_of_reviews)?
+H3 (Hosts profesionales):
+¿Los anfitriones con múltiples propiedades (más de 3 listings) presentan menor disponibilidad anual (availability_365) pero precios más estables en comparación con anfitriones individuales?
+H4 (Precio vs demanda):
+¿Existe una relación inversa entre el precio de alquiler (price) y la cantidad de reseñas (number_of_reviews), indicando que precios más altos reducen la ocupación?
+H5 (Criminalidad vs estabilidad):
+¿Los distritos con niveles altos de criminalidad (niveles 4 o 5) presentan mayor variabilidad en la disponibilidad (availability_365), reflejando menor estabilidad en la demanda?
+H6 (Valor de propiedad vs precio Airbnb):
+¿Existe una correlación positiva entre el valor promedio de venta de las propiedades (average_sale_price) y el precio de alquiler diario (price)?
+H7 (Rentabilidad vs costo de entrada):
+¿Los distritos con menor costo de adquisición presentan una mejor relación entre precio de alquiler y demanda, generando un retorno de inversión más atractivo que distritos de alto valor como Manhattan?
+H8 (Tipo de propiedad y retorno):
+¿Los alojamientos tipo “Entire home/apt” generan mayor ingreso potencial a pesar de tener menor frecuencia de reseñas en comparación con habitaciones privadas o compartidas?
+H9 (Punto dulce de inversión):
+¿Existe un conjunto de distritos que logran un equilibrio óptimo entre precio de alquiler, nivel de criminalidad y demanda, maximizando el ingreso esperado y minimizando el riesgo para el inversionista?
 
 
 # 6. Plan de Trabajo Etapa 2 (Semanas 7-14)
