@@ -104,6 +104,11 @@ Desarrollar un análisis basado en el dataset de Airbnb NYC que permita identifi
 | **14** | **Entrega PC2:** Carga de archivos finales y presentación ante el directorio de la empresa. | Todo el Equipo |
 
 
+# Apéndice de uso de IA: 
+
+si usaron IA generativa, detallar qué prompts usaron y cómo
+validaron los resultados
+
 Matias: Buscar data fuentes de enrequisimiento
 
 Lu: Hipotesis y objetivos
