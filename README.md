@@ -26,7 +26,7 @@ Los inversionistas que buscan entrar al mercado de **Airbnb en Nueva York** se e
 Actualmente, no existe una herramienta que cruce el costo de adquisición de la propiedad, la tasa de criminalidad del distrito y el precio potencial de alquiler para identificar el **"punto dulce" de inversión (ROI)** donde se maximice el ingreso minimizando el riesgo del entorno.
 
 ### **PREGUNTA CENTRAL:**
-> ¿Cómo afecta la ubicación geográfica —medida a través del costo de mercado de la propiedad y el índice de criminalidad— en la fijación de precios de los alojamientos Airbnb en NYC, y en qué distritos se encuentra el mejor equilibrio entre seguridad y rentabilidad para un inversionista?
+> ¿Cómo afecta la ubicación geográfica (medida a través del costo de mercado de la propiedad y el índice de criminalidad) en la fijación de precios de los alojamientos Airbnb en NYC, y en qué distritos se encuentra el mejor equilibrio entre seguridad y rentabilidad para un inversionista?
 
 ---
 
