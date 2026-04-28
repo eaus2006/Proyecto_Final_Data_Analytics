@@ -109,12 +109,10 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 ## 8. APÉNDICE DE USO DE IA
 
-* **Herramientas:** ChatGPT / Gemini.
+* **Herramientas:** ChatGPT / Gemini / Copilot
 * **Uso:** Se utilizaron prompts para la estructuración del plan de trabajo, optimización de redacción ejecutiva y asistencia en el código de limpieza de datos en Python.
 
 **Prompts para la Organización y Limpieza de Datos**:
-  
-"Tengo un dataset de Airbnb con latitud y longitud, y otro dataset de ventas inmobiliarias por distrito en archivos Excel separados. Escribe un script en Python usando Pandas para cargar todos los archivos y crear una nueva columna en el dataset principal que contenga el precio promedio de venta por 'neighbourhood_group'." 
 
 "¿Cómo puedo tratar los valores nulos en la columna 'reviews_per_month' del dataset de Airbnb para que no afecten mis cálculos de promedios?" "Genera un código para mapear una lista de distritos de NYC (Manhattan, Brooklyn, Queens, Bronx, Staten Island) a una escala numérica de criminalidad del 1 al 5." 
 
@@ -128,7 +126,7 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 "Revisa estas 9 hipótesis sobre el negocio de Airbnb y selecciona las 4 más impactantes para un inversionista inmobiliario que se preocupa por el balance entre seguridad y rentabilidad." 
 
-"Ayúdame a redactar un 'Objetivo Principal' para mi proyecto que sea directo, profesional y que mencione específicamente el uso de analítica de datos para encontrar el 'punto dulce' de inversión en NYC."
+"Ayúdame a mejorar mi 'Objetivo Principal' para que sea mas directo, profesional y que mencione específicamente el uso de analítica de datos para encontrar el 'punto clave' de inversión en NYC."
 
 "Mejora la coherencia de este texto: quiero explicar por qué Manhattan tiene precios altos a pesar de tener un costo de adquisición masivo, usando un lenguaje de consultoría de negocios
 
