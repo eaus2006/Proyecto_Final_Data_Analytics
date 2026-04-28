@@ -97,7 +97,7 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 | SEMANA | ACTIVIDAD PRINCIPAL | RESPONSABLE(S) |
 | :--- | :--- | :--- |
-| **7 - 8** | **Analítica Diagnóstica:** Validación de las hipótesis mediante análisis bivariado y multivariado. | Matias y Manuel |
+| **7 - 8** | **Analítica Diagnóstica:** Validación de las hipótesis mediante análisis bivariado y multivariado. | Matias y Eurymar |
 | **9 - 10** | **Construcción del Dashboard:** Diseño de visualizaciones interactivas que respondan a preguntas de negocio. | Giraldo y Manuel |
 | **11** | **Analítica Predictiva:** Implementación de un modelo simple (ej. regresión para predecir precios). | Matias |
 | **12** | **Análisis Prescriptivo:** Creación de escenarios "¿qué pasaría si...?" y redacción de recomendaciones estratégicas. | Luciana |
