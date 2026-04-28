@@ -111,6 +111,7 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 * **Herramientas:** ChatGPT / Gemini.
 * **Uso:** Se utilizaron prompts para la estructuración del plan de trabajo, optimización de redacción ejecutiva y asistencia en el código de limpieza de datos en Python.
+
 **Prompts para la Organización y Limpieza de Datos**:
   
 "Tengo un dataset de Airbnb con latitud y longitud, y otro dataset de ventas inmobiliarias por distrito en archivos Excel separados. Escribe un script en Python usando Pandas para cargar todos los archivos y crear una nueva columna en el dataset principal que contenga el precio promedio de venta por 'neighbourhood_group'." 
