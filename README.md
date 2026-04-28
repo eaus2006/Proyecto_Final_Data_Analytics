@@ -21,10 +21,8 @@
 
 ## 2. DESCRIPCIÓN DEL PROBLEMA DE NEGOCIO
 
-### **EL DILEMA DEL INVERSIONISTA:**
 Los inversionistas que buscan entrar al mercado de **Airbnb en Nueva York** se enfrentan a un dilema de rentabilidad y riesgo: las zonas con mayor valor de propiedad (como Manhattan) tienen precios de alquiler más altos pero costos de adquisición masivos. Por otro lado, zonas más económicas podrían parecer atractivas, pero presentan variaciones en la seguridad (**crime rate**) que pueden ahuyentar a la demanda o depreciar el valor del alquiler.
 
-### **NECESIDAD DEL MERCADO:**
 Actualmente, no existe una herramienta que cruce el costo de adquisición de la propiedad, la tasa de criminalidad del distrito y el precio potencial de alquiler para identificar el **"punto dulce" de inversión (ROI)** donde se maximice el ingreso minimizando el riesgo del entorno.
 
 ### **PREGUNTA CENTRAL:**
