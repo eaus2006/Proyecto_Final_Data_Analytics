@@ -66,9 +66,6 @@ Collab
 4. Tipo de habitación por precio de alquiler
 5. Evlauar la disponibilidad por precio de alquiler
 
-# Objetivo General
-Desarrollar un análisis de datos que permita identificar el equilibrio óptimo entre rentabilidad y riesgo en el mercado de alquileres de corto plazo en Nueva York, considerando el precio de alquiler, el valor de las propiedades, la ubicación y el nivel de criminalidad, con el fin de guiar decisiones estratégicas de inversión en Airbnb.
-
 # Objetivos Específicos
 - Analizar la relación entre la ubicación geográfica (neighbourhood_group) y el precio de alquiler (price).
 - Evaluar la relación entre precio (price) y demanda (number_of_reviews) como proxy de ocupación.
