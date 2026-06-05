@@ -33,10 +33,17 @@ Actualmente, las decisiones de inversión se toman de forma aislada basándose e
 Desarrollar un framework de analítica de datos mediante la integración de fuentes de enriquecimiento públicas y privadas, con el fin de identificar las zonas geográficas óptimas en la ciudad de Nueva York que maximicen el rendimiento financiero para inversiones en Airbnb, minimizando simultáneamente el riesgo de adquisición inmobiliaria y los índices de inseguridad ciudadana.
 
 ### **OBJETIVOS ESPECÍFICOS:**
-* Evaluar la relación económica entre el costo promedio de mercado de los bienes raíces por distrito y el precio de cotización diaria en la plataforma Airbnb.
-* * Hipótesis 1 (H1): ¿Existe una correlación lineal positiva y fuerte ($r > 0.70$) entre el precio promedio de venta de las propiedades inmobiliarias (SALE PRICE) y la tarifa por noche (price) de los alojamientos en Airbnb a nivel de distritos?
+* OE1: Evaluar la relación económica entre el costo promedio de mercado de los bienes raíces por distrito y el precio de cotización diaria en la plataforma Airbnb.
+  * Hipótesis 1 (H1): ¿Existe una correlación lineal positiva y fuerte ($r > 0.70$) entre el precio promedio de venta de las propiedades inmobiliarias (SALE PRICE) y la tarifa por noche (price) de los alojamientos en Airbnb a nivel de distritos?
 
----
+* 0E2: Analizar el impacto de los niveles de seguridad ciudadana sobre las tarifas y la competitividad de los alojamientos turísticos.
+  * Hipótesis 2 (H2): ¿Los distritos catalogados con niveles de criminalidad altos (como el Bronx) presentan una mediana de precio de alquiler significativamente menor y una menor densidad de ofertas en comparación con distritos considerados de alta seguridad (como Staten Island o Manhattan)?
+ 
+* (OE3): Determinar la dinámica entre la política de precios por noche y la tasa de ocupación/disponibilidad anual del inmueble.
+  * Hipótesis 3 (H3): ¿Existe una relación inversa entre el precio de alquiler (price) y la disponibilidad anual de la propiedad (availability_365), sugiriendo que los alojamientos con tarifas premium experimentan una menor rotación de huéspedes y mayor tiempo ociosos en el mercado?
+
+* (OE4): Identificar el "Punto Dulce" de inversión inmobiliaria mediante un análisis de eficiencia multivariable (Costo - Seguridad - Retorno).
+  * Hipótesis 4 (H4): ¿Existen vecindarios específicos en distritos periféricos (como Brooklyn o Queens) que registren un índice de eficiencia superior (Alta tarifa de Airbnb / Bajo costo de adquisición) manteniendo un nivel de criminalidad calificado como moderado o bajo?
 
 ## 4. DESCRIPCIÓN DE LOS DATOS
 
