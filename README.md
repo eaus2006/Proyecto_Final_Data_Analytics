@@ -21,29 +21,20 @@
 
 ## 2. DESCRIPCIÓN DEL PROBLEMA DE NEGOCIO
 
-Los inversionistas que buscan entrar al mercado de **Airbnb en Nueva York** se enfrentan a un dilema de rentabilidad y riesgo: las zonas con mayor valor de propiedad (como Manhattan) tienen precios de alquiler más altos pero costos de adquisición masivos. Por otro lado, zonas más económicas podrían parecer atractivas, pero presentan variaciones en la seguridad (**crime rate**) que pueden ahuyentar a la demanda o depreciar el valor del alquiler.
+Los inversionistas independientes y firmas boutique que buscan ingresar al mercado de alquileres temporales en la plataforma Airbnb en Nueva York se enfrentan a un complejo dilema estratégico que equilibra la rentabilidad potencial y el riesgo financiero. Las zonas tradicionales con un valor de propiedad masivo (como Manhattan) garantizan tarifas por noche elevadas, pero exigen un costo de adquisición de inmuebles prohibitivo, ralentizando el Retorno de Inversión (ROI). Por otro lado, los distritos periféricos ofrecen costos de entrada accesibles, pero exponen al inversor a una mayor volatilidad en la demanda turística y a riesgos de seguridad ciudadana que impactan directamente en la tasa de vacancia.
 
-Actualmente, no existe una herramienta que cruce el costo de adquisición de la propiedad, la tasa de criminalidad del distrito y el precio potencial de alquiler para identificar el **"punto dulce" de inversión (ROI)** donde se maximice el ingreso minimizando el riesgo del entorno.
-
-### **PREGUNTA CENTRAL:**
-> ¿Cómo afecta la ubicación geográfica (medida a través del costo de mercado de la propiedad y el índice de criminalidad) en la fijación de precios de los alojamientos Airbnb en NYC, y en qué distritos se encuentra el mejor equilibrio entre seguridad y rentabilidad para un inversionista?
+Actualmente, las decisiones de inversión se toman de forma aislada basándose en intuiciones o un solo dataset. La falta de una herramienta analítica centralizada que integre de manera limpia el costo de adquisición de la propiedad (Rolling Sales de la ciudad) con métricas operativas de turismo digital (Airbnb) impide identificar con precisión el "Punto Dulce" (Sweet Spot): zonas geográficas con precios de entrada moderados, tasas de delincuencia controladas y flujos de caja atractivos.
 
 ---
 
 ## 3. OBJETIVOS DEL PROYECTO
 
 ### **OBJETIVO PRINCIPAL:**
-El objetivo de esta investigación es **identificar las zonas geográficas en la ciudad de Nueva York que ofrecen la mayor eficiencia de inversión inmobiliaria para alquileres de corto plazo (Airbnb)**. Esto se logrará mediante el análisis cruzado de la rentabilidad esperada (precios de alquiler), el riesgo del entorno (índice de criminalidad) y el costo de capital (valor de venta de mercado), permitiendo a los inversionistas de nuestra consultora tomar decisiones basadas en datos que equilibren la seguridad del huésped con el retorno de inversión (ROI).
+Desarrollar un framework de analítica de datos mediante la integración de fuentes de enriquecimiento públicas y privadas, con el fin de identificar las zonas geográficas óptimas en la ciudad de Nueva York que maximicen el rendimiento financiero para inversiones en Airbnb, minimizando simultáneamente el riesgo de adquisición inmobiliaria y los índices de inseguridad ciudadana.
 
 ### **OBJETIVOS ESPECÍFICOS:**
-* Analizar la relación entre la ubicación geográfica (`neighbourhood_group`) y el precio de alquiler (`price`).
-* Evaluar la relación entre precio (`price`) y demanda (`number_of_reviews`) como proxy de ocupación.
-* Analizar cómo la disponibilidad (`availability_365`) refleja estabilidad de ingresos y ocupación.
-* Evaluar el impacto del tipo de alojamiento (`room_type`) en el precio y la demanda.
-* Analizar el efecto del nivel de criminalidad (`crime_rate`) sobre la demanda y estabilidad del alquiler.
-* Evaluar la relación entre el valor de mercado de las propiedades (`average_sale_price`) y el precio de Airbnb.
-* Identificar patrones de comportamiento entre anfitriones profesionales (`calculated_host_listings_count`) y anfitriones individuales.
-* Determinar qué distritos presentan el mejor equilibrio entre ingreso potencial y riesgo, identificando el **“punto dulce”** de inversión.
+* Evaluar la relación económica entre el costo promedio de mercado de los bienes raíces por distrito y el precio de cotización diaria en la plataforma Airbnb.
+* * Hipótesis 1 (H1): ¿Existe una correlación lineal positiva y fuerte ($r > 0.70$) entre el precio promedio de venta de las propiedades inmobiliarias (SALE PRICE) y la tarifa por noche (price) de los alojamientos en Airbnb a nivel de distritos?
 
 ---
 
