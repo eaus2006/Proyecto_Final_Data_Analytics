@@ -77,64 +77,58 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 ---
 
-## 6. PLAN DE TRABAJO ETAPA 2 (SEMANAS 7-14)
+## 6. PLAN DE TRABAJO PARA LA ETAPA 2 (CRONOGRAMA DE ACTIVIDADES)
 
-| SEMANA | ACTIVIDAD PRINCIPAL | RESPONSABLE(S) |
+El equipo ha estructurado el desarrollo de la fase final del proyecto de acuerdo con el siguiente cronograma de hitos académicos, garantizando una transición ordenada de la analítica descriptiva hacia la predictiva y prescriptiva:
+
+| Semana | Actividad Principal | Responsable(s) |
 | :--- | :--- | :--- |
-| **7 - 8** | **Analítica Diagnóstica:** Validación de las hipótesis mediante análisis bivariado y multivariado. | Matias y Eurymar |
-| **9 - 10** | **Construcción del Dashboard:** Diseño de visualizaciones interactivas que respondan a preguntas de negocio. | Giraldo y Manuel |
-| **11** | **Analítica Predictiva:** Implementación de un modelo simple (ej. regresión para predecir precios). | Matias |
-| **12** | **Análisis Prescriptivo:** Creación de escenarios "¿qué pasaría si...?" y redacción de recomendaciones estratégicas. | Luciana |
-| **13** | **Documentación Final y QA:** Consolidación del informe en GitHub y revisión de calidad del Notebook. | Eurymar |
-| **13** | **Preparación de la Presentación:** Diseño de diapositivas (máx. 12) y ensayo de la exposición oral. | Todo el Equipo |
-| **14** | **Entrega PC2:** Carga de archivos finales y presentación ante el directorio de la empresa. | Todo el Equipo |
+| **7 - 8** | **Analítica Diagnóstica:** Validación de las 4 hipótesis mediante análisis de datos bivariado y multivariable en Python. | Matias Amaya, Eurymar Umbria |
+| **9 - 10** | **Construcción del Dashboard:** Diseño de visualizaciones interactivas y dinámicas enfocadas en la toma de decisiones. | Giraldo Ruiz, Manuel Aguirre |
+| **11** | **Analítica Predictiva:** Implementación de modelos de aprendizaje supervisado (Machine Learning) para la estimación de tarifas. | Matias Amaya |
+| **12** | **Análisis Prescriptivo:** Simulación de escenarios de inversión y formulación de recomendaciones corporativas finales. | Luciana Pacheco, Eurymar Umbria |
+| **13** | **Documentación Final y QA:** Consolidación del informe técnico en GitHub y control de calidad del código. | Eurymar Umbria |
+| **13** | **Preparación de la Presentación:** Diseño de diapositivas finales y ensayo de la sustentación oral colectiva. | Todo el Equipo |
+| **14** | **Cierre del Proyecto:** Entrega del repositorio final y evaluación de desempeño del equipo consultor. | Todo el Equipo |
 
 ---
 
-## 7. APÉNDICE DE USO DE IA
+## 7. APÉNDICE: BITÁCORA DE USO DE INTELIGENCIA ARTIFICIAL (IA GENERATIVA)
 
-* **Herramientas:** ChatGPT / Gemini / Copilot
-* **Uso:** Se utilizaron prompts para la estructuración del plan de trabajo, optimización de redacción ejecutiva y asistencia en el código de limpieza de datos en Python.
+En cumplimiento con las directrices académicas del curso, el equipo de *SafeInvest NYC Analytics* declara haber utilizado herramientas de Inteligencia Artificial Generativa (ChatGPT-4 y Gemini) exclusivamente como soporte metodológico, optimización de consultas en lenguaje DAX/Python y refinamiento de la redacción técnica. Su uso se limitó a acelerar los procesos de desarrollo sin sustituir el criterio analítico ni estratégico del equipo.
 
-**Prompts para la Organización y Limpieza de Datos**:
+### **Muestras de Prompts Clave Utilizados por el Equipo:**
 
-"¿Cómo puedo tratar los valores nulos en la columna 'reviews_per_month' del dataset de Airbnb para que no afecten mis cálculos de promedios?" "Genera un código para mapear una lista de distritos de NYC (Manhattan, Brooklyn, Queens, Bronx, Staten Island) a una escala numérica de criminalidad del 1 al 5." 
+* **Prompts para la Organización y Limpieza de Datos:**
+  > *"¿Cómo puedo tratar los valores nulos en la columna 'reviews_per_month' del dataset de Airbnb para que no afecten mis cálculos de promedios en Pandas sin sesgar la distribución?"*
+  > *"Genera una función en Python para limpiar espacios en blanco ocultos (trailing spaces) en una columna de texto antes de realizar un pd.merge entre dos DataFrames."*
 
-**Prompts para la Búsqueda y Selección de Datasets**
+* **Prompts para la Búsqueda y Selección de Datasets de Enriquecimiento:**
+  > *"Estoy trabajando en un proyecto de Big Data sobre Airbnb en NYC. Necesito una fuente de enriquecimiento gratuita que me dé el valor histórico de venta de mercado de las casas en Nueva York para compararlo con los precios de alquiler. ¿Dónde puedo descargar esta data oficial?"*
 
-"Estoy trabajando en un proyecto de Big Data sobre Airbnb en NYC. Necesito una fuente de enriquecimiento gratuita que me dé el valor de mercado de las casas en Nueva York para compararlo con los precios de alquiler. ¿Dónde puedo descargar esta data oficial?" 
-
-"¿Qué variables del portal NYC Open Data son más útiles para analizar la seguridad ciudadana y cómo se relacionan con el turismo digital?" 
-
-**Prompts para la Coherencia de Temas e Hipótesis**
-
-"Revisa estas 9 hipótesis sobre el negocio de Airbnb y selecciona las 4 más impactantes para un inversionista inmobiliario que se preocupa por el balance entre seguridad y rentabilidad." 
-
-"Ayúdame a mejorar mi 'Objetivo Principal' para que sea mas directo, profesional y que mencione específicamente el uso de analítica de datos para encontrar el 'punto clave' de inversión en NYC."
+* **Prompts para la Coherencia de Temas e Hipótesis de Negocio:**
+  > *"Revisa estas hipótesis sobre el negocio de Airbnb y selecciona las 4 más impactantes para un inversionista inmobiliario que se preocupa por el balance entre seguridad ciudadana, costo de adquisición y rentabilidad por noche."*
+  > *"Ayúdame a mejorar mi 'Objetivo Principal' para que adopte un enfoque de consultoría de negocios digitales y mencione explícitamente el uso de fuentes de enriquecimiento."*
 
 ---
 
-## 8. MARCO METODOLÓGICO Y AVANCE DE LA ETAPA 2 (DESARROLLO ANALÍTICO)
+## 8. DESARROLLO DE LA ETAPA 2 (DIAGNÓSTICA, PREDICTIVA Y PRESCRIPTIVA)
 
-### 8.1. Analítica Diagnóstica y Validación Avanzada de Hipótesis (Semanas 7-8)
-Para validar de forma cuantitativa las 4 hipótesis reformuladas y asegurar el rigor analítico exigido en la rúbrica de evaluación, el equipo ejecutará un Análisis Exploratorio de Datos (EDA) de nivel bivariado y multivariado sobre la base de datos unificada y enriquecida:
+A partir de la base de datos unificada en el entorno de desarrollo (Google Colab), el equipo ejecutará las siguientes fases metodológicas siguiendo el cronograma establecido:
 
-* **Validación de H1 (Precio vs. Costo Inmobiliario):** Se implementará un análisis de correlación lineal utilizando el coeficiente de Pearson ($r$) y gráficos de dispersión (`sns.scatterplot`) con líneas de tendencia. Esto determinará matemáticamente si el costo de adquisición del inmueble (`average_sale_price`) indexa proporcionalmente la tarifa de salida en Airbnb (`price`).
-* **Validación de H2 (Precio vs. Criminalidad):** Se segmentarán los datos según el nivel de criminalidad corregido (escala 1 al 5 basada en el reporte NYPD). Mediante diagramas de caja y bigotes (`sns.boxplot`) y pruebas estadísticas de comparación de medianas (Kruskal-Wallis o ANOVA), se demostrará el impacto real y el "castigo financiero" que sufren los precios de los alojamientos en zonas con altos índices delictivos (como el Bronx).
-* **Validación de H3 (Precio vs. Disponibilidad):** Se generará una matriz de correlación térmica (Heatmap) para evaluar si las propiedades con tarifas de alta gama experimentan una tasa de vacancia prolongada o si la disponibilidad (`availability_365`) se rige por factores estacionales ajenos al precio.
-* **Validación de H4 (El "Punto Dulce" Inmobiliario):** Se cruzará de forma simultánea el costo, la seguridad y la tarifa mediante gráficos de burbujas multivariados, donde el color represente el nivel de riesgo y el tamaño represente la tarifa de alquiler, aislando los vecindarios periféricos más eficientes de Brooklyn o Queens.
+### 8.1. Fase Diagnóstica y Análisis Multivariable (Semanas 7-8)
+* **Objetivo:** Validar cuantitativamente las 4 hipótesis de negocio planteadas en la Sección 4, cruzando las variables del dataset base de Airbnb con las variables de enriquecimiento inmobiliario y seguridad.
+* **En el Código:** Se utilizarán las librerías `seaborn` y `matplotlib` en Python para generar gráficos de dispersión (`sns.scatterplot`) con líneas de tendencia que midan la correlación de Pearson ($r$) entre el precio de Airbnb (`price`) y el costo de la propiedad (`average_sale_price`). Asimismo, se analizará estadísticamente el impacto del riesgo usando diagramas de cajas (`sns.boxplot`) segmentados por el nivel de criminalidad corregido (escala 1 al 5).
 
-### 8.2. Diseño de la Solución e Interactividad del Dashboard (Semanas 9-10)
-Atendiendo al criterio crítico de la rúbrica que penaliza las visualizaciones estáticas, el equipo desarrollará un Dashboard Interactivo enfocado en el usuario final (inversionistas de la consultora *SafeInvest NYC Analytics*). 
-* **Tecnología a usar:** El componente de visualización se construirá utilizando [Power BI / Streamlit en Python - *Coordinar con Giraldo*].
-* **Funcionalidades Dinámicas:** El usuario podrá interactuar en tiempo real con filtros de presupuesto de capital, selección de distritos geográficos (`neighbourhood_group`) y niveles de tolerancia al riesgo. El núcleo de la interfaz incluirá un mapa interactivo basado en las coordenadas de latitud y longitud del dataset unificado, permitiendo una exploración visual directa del "Punto Dulce" de inversión.
+### 8.2. Implementación de la Solución Interactiva (Semanas 9-10)
+* **Objetivo:** Construir el Dashboard interactivo para que los inversionistas de la consultora puedan explorar los datos dinámicamente y localizar visualmente el "Punto Dulce" de inversión.
+* **Herramienta:** El despliegue se definirá mediante Power BI o Streamlit para asegurar que la visualización sea completamente dinámica, incorporando filtros por distrito (`neighbourhood_group`), rangos de presupuesto de capital y mapas interactivos basados en latitud y longitud.
 
-### 8.3. Modelado Predictivo con Machine Learning (Semana 11)
-El proyecto transicionará de la analítica descriptiva a la predictiva mediante el entrenamiento de modelos de aprendizaje supervisado en Python (Regresión Lineal Múltiple y Random Forest Regressor). El modelo estimará la tarifa óptima por noche ($Y$) de una nueva propiedad introducida al mercado basándose en variables predictoras ($X_i$) clave:
-$$\text{Price} = \beta_0 + \beta_1(\text{average\_sale\_price}) + \beta_2(\text{crime\_rate}) + \beta_3(\text{room\_type}) + \epsilon$$
-Para garantizar el nivel de excelencia técnica, el rendimiento del algoritmo no se asumirá a ciegas, sino que se medirá explícitamente a través del coeficiente de determinación ($R^2$) y el Error Absoluto Medio (MAE).
+### 8.3. Fase Predictiva con Machine Learning (Semana 11)
+* **Objetivo:** Entrenar un algoritmo de aprendizaje supervisado (Regresión Lineal Múltiple / Árboles de Decisión) que permita predecir la tarifa óptima por noche ($Y$) de una nueva propiedad introducida al mercado basándose en variables predictoras clave ($X_i$):
+  $$\text{Price} = \beta_0 + \beta_1(\text{average\_sale\_price}) + \beta_2(\text{crime\_rate}) + \beta_3(\text{room\_type}) + \epsilon$$
+* **Métricas de Éxito:** Se evaluará rigurosamente el rendimiento del modelo utilizando el coeficiente de determinación ($R^2$) y el Error Absoluto Medio (MAE) para cumplir con el estándar técnico exigido.
 
-### 8.4. Enfoque Prescriptivo y Toma de Decisiones Estratégicas (Semana 12)
-El cierre del proyecto articulará los hallazgos matemáticos con los objetivos de negocio de la consultora. Se construirán escenarios de simulación ("¿Qué pasaría si...?") para formular recomendaciones de inversión corporativa granulares. Estas prescripciones orientarán el capital hacia zonas específicas que mitiguen el riesgo de delincuencia y optimicen la tasa de ocupación anual, respondiendo de manera definitiva al problema de negocio planteado al inicio de la investigación.
-
-
+### 8.4. Fase Prescriptiva y Conclusiones (Semana 12)
+* **Objetivo:** Traducir las métricas estadísticas y las predicciones del modelo en recomendaciones estratégicas de negocio ("¿Qué pasaría si...?").
+* **Impacto:** Las prescripciones orientarán las decisiones de la consultora detallando con precisión qué vecindarios específicos de distritos periféricos ofrecen el mejor retorno financiero con una exposición al riesgo controlada.
