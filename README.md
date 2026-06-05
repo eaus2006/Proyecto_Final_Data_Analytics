@@ -77,7 +77,7 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 ---
 
-## 7. PLAN DE TRABAJO ETAPA 2 (SEMANAS 7-14)
+## 6. PLAN DE TRABAJO ETAPA 2 (SEMANAS 7-14)
 
 | SEMANA | ACTIVIDAD PRINCIPAL | RESPONSABLE(S) |
 | :--- | :--- | :--- |
@@ -91,7 +91,7 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 ---
 
-## 8. APÉNDICE DE USO DE IA
+## 7. APÉNDICE DE USO DE IA
 
 * **Herramientas:** ChatGPT / Gemini / Copilot
 * **Uso:** Se utilizaron prompts para la estructuración del plan de trabajo, optimización de redacción ejecutiva y asistencia en el código de limpieza de datos en Python.
@@ -112,5 +112,29 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 "Ayúdame a mejorar mi 'Objetivo Principal' para que sea mas directo, profesional y que mencione específicamente el uso de analítica de datos para encontrar el 'punto clave' de inversión en NYC."
 
-"Mejora la coherencia de este texto: quiero explicar por qué Manhattan tiene precios altos a pesar de tener un costo de adquisición masivo, usando un lenguaje de consultoría de negocios
+---
+
+## 8. MARCO METODOLÓGICO Y AVANCE DE LA ETAPA 2 (DESARROLLO ANALÍTICO)
+
+### 8.1. Analítica Diagnóstica y Validación Avanzada de Hipótesis (Semanas 7-8)
+Para validar de forma cuantitativa las 4 hipótesis reformuladas y asegurar el rigor analítico exigido en la rúbrica de evaluación, el equipo ejecutará un Análisis Exploratorio de Datos (EDA) de nivel bivariado y multivariado sobre la base de datos unificada y enriquecida:
+
+* **Validación de H1 (Precio vs. Costo Inmobiliario):** Se implementará un análisis de correlación lineal utilizando el coeficiente de Pearson ($r$) y gráficos de dispersión (`sns.scatterplot`) con líneas de tendencia. Esto determinará matemáticamente si el costo de adquisición del inmueble (`average_sale_price`) indexa proporcionalmente la tarifa de salida en Airbnb (`price`).
+* **Validación de H2 (Precio vs. Criminalidad):** Se segmentarán los datos según el nivel de criminalidad corregido (escala 1 al 5 basada en el reporte NYPD). Mediante diagramas de caja y bigotes (`sns.boxplot`) y pruebas estadísticas de comparación de medianas (Kruskal-Wallis o ANOVA), se demostrará el impacto real y el "castigo financiero" que sufren los precios de los alojamientos en zonas con altos índices delictivos (como el Bronx).
+* **Validación de H3 (Precio vs. Disponibilidad):** Se generará una matriz de correlación térmica (Heatmap) para evaluar si las propiedades con tarifas de alta gama experimentan una tasa de vacancia prolongada o si la disponibilidad (`availability_365`) se rige por factores estacionales ajenos al precio.
+* **Validación de H4 (El "Punto Dulce" Inmobiliario):** Se cruzará de forma simultánea el costo, la seguridad y la tarifa mediante gráficos de burbujas multivariados, donde el color represente el nivel de riesgo y el tamaño represente la tarifa de alquiler, aislando los vecindarios periféricos más eficientes de Brooklyn o Queens.
+
+### 8.2. Diseño de la Solución e Interactividad del Dashboard (Semanas 9-10)
+Atendiendo al criterio crítico de la rúbrica que penaliza las visualizaciones estáticas, el equipo desarrollará un Dashboard Interactivo enfocado en el usuario final (inversionistas de la consultora *SafeInvest NYC Analytics*). 
+* **Tecnología a usar:** El componente de visualización se construirá utilizando [Power BI / Streamlit en Python - *Coordinar con Giraldo*].
+* **Funcionalidades Dinámicas:** El usuario podrá interactuar en tiempo real con filtros de presupuesto de capital, selección de distritos geográficos (`neighbourhood_group`) y niveles de tolerancia al riesgo. El núcleo de la interfaz incluirá un mapa interactivo basado en las coordenadas de latitud y longitud del dataset unificado, permitiendo una exploración visual directa del "Punto Dulce" de inversión.
+
+### 8.3. Modelado Predictivo con Machine Learning (Semana 11)
+El proyecto transicionará de la analítica descriptiva a la predictiva mediante el entrenamiento de modelos de aprendizaje supervisado en Python (Regresión Lineal Múltiple y Random Forest Regressor). El modelo estimará la tarifa óptima por noche ($Y$) de una nueva propiedad introducida al mercado basándose en variables predictoras ($X_i$) clave:
+$$\text{Price} = \beta_0 + \beta_1(\text{average\_sale\_price}) + \beta_2(\text{crime\_rate}) + \beta_3(\text{room\_type}) + \epsilon$$
+Para garantizar el nivel de excelencia técnica, el rendimiento del algoritmo no se asumirá a ciegas, sino que se medirá explícitamente a través del coeficiente de determinación ($R^2$) y el Error Absoluto Medio (MAE).
+
+### 8.4. Enfoque Prescriptivo y Toma de Decisiones Estratégicas (Semana 12)
+El cierre del proyecto articulará los hallazgos matemáticos con los objetivos de negocio de la consultora. Se construirán escenarios de simulación ("¿Qué pasaría si...?") para formular recomendaciones de inversión corporativa granulares. Estas prescripciones orientarán el capital hacia zonas específicas que mitiguen el riesgo de delincuencia y optimicen la tasa de ocupación anual, respondiendo de manera definitiva al problema de negocio planteado al inicio de la investigación.
+
 
