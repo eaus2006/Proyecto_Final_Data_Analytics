@@ -77,20 +77,6 @@ Se han desarrollado **5 visualizaciones** conectadas al mercado digital y precio
 
 ---
 
-## 6. HIPÓTESIS DE NEGOCIO (PREGUNTAS)
-
-* **H1 (Ubicación premium y precio):** ¿Las propiedades ubicadas en Manhattan y cerca de estaciones de metro principales presentan precios por noche significativamente mayores (por ejemplo, al menos 25% por encima del promedio del distrito)?
-* **H2 (Criminalidad vs demanda):** ¿Existe una relación negativa entre el índice de criminalidad del vecindario (`crime_rate`) y la demanda del alojamiento (`number_of_reviews`)?
-* **H3 (Hosts profesionales):** ¿Los anfitriones con múltiples propiedades (más de 3 listings) presentan menor disponibilidad anual (`availability_365`) pero precios más estables en comparación con anfitriones individuales?
-* **H4 (Precio vs demanda):** ¿Existe una relación inversa entre el precio de alquiler (`price`) y la cantidad de reseñas (`number_of_reviews`), indicando que precios más altos reducen la ocupación?
-* **H5 (Criminalidad vs estabilidad):** ¿Los distritos con niveles altos de criminalidad (niveles 4 o 5) presentan mayor variabilidad en la disponibilidad (`availability_365`), reflejando menor estabilidad en la demanda?
-* **H6 (Valor de propiedad vs precio Airbnb):** ¿Existe una correlación positiva entre el valor promedio de venta de las propiedades (`average_sale_price`) y el precio de alquiler diario (`price`)?
-* **H7 (Rentabilidad vs costo de entrada):** ¿Los distritos con menor costo de adquisición presentan una mejor relación entre precio de alquiler y demanda, generando un retorno de inversión más atractivo que distritos de alto valor como Manhattan?
-* **H8 (Tipo de propiedad y retorno):** ¿Los alojamientos tipo “Entire home/apt” generan mayor ingreso potencial a pesar de tener menor frecuencia de reseñas en comparación con habitaciones privadas o compartidas?
-* **H9 (Punto dulce de inversión):** ¿Existe un conjunto de distritos que logran un equilibrio óptimo entre precio de alquiler, nivel de criminalidad y demanda, maximizando el ingreso esperado y minimizando el riesgo para el inversionista?
-
----
-
 ## 7. PLAN DE TRABAJO ETAPA 2 (SEMANAS 7-14)
 
 | SEMANA | ACTIVIDAD PRINCIPAL | RESPONSABLE(S) |
