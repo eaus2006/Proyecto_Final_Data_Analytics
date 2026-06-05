@@ -126,7 +126,7 @@ A partir de la base de datos unificada en el entorno de desarrollo (Google Colab
 
 ### 8.3. Fase Predictiva con Machine Learning (Semana 11)
 * **Objetivo:** Entrenar un algoritmo de aprendizaje supervisado (Regresión Lineal Múltiple / Árboles de Decisión) que permita predecir la tarifa óptima por noche ($Y$) de una nueva propiedad introducida al mercado basándose en variables predictoras clave ($X_i$):
-  $$\text{Price} = \beta_0 + \beta_1(\text{average\_sale\_price}) + \beta_2(\text{crime\_rate}) + \beta_3(\text{room\_type}) + \epsilon$$
+  Price = beta_0 + beta_1(average\_sale\_price) + beta_2(text{crime\_rate) + beta_3(room\_type) + \epsilon$$
 * **Métricas de Éxito:** Se evaluará rigurosamente el rendimiento del modelo utilizando el coeficiente de determinación ($R^2$) y el Error Absoluto Medio (MAE) para cumplir con el estándar técnico exigido.
 
 ### 8.4. Fase Prescriptiva y Conclusiones (Semana 12)
