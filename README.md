@@ -118,16 +118,14 @@ A partir de la base de datos unificada en el entorno de desarrollo (Google Colab
 
 ### 8.1. Fase Diagnóstica y Análisis Multivariable (Semanas 7-8)
 * **Objetivo:** Validar cuantitativamente las 4 hipótesis de negocio planteadas en la Sección 4, cruzando las variables del dataset base de Airbnb con las variables de enriquecimiento inmobiliario y seguridad.
-* **En el Código:** Se utilizarán las librerías `seaborn` y `matplotlib` en Python para generar gráficos de dispersión (`sns.scatterplot`) con líneas de tendencia que midan la correlación de Pearson ($r$) entre el precio de Airbnb (`price`) y el costo de la propiedad (`average_sale_price`). Asimismo, se analizará estadísticamente el impacto del riesgo usando diagramas de cajas (`sns.boxplot`) segmentados por el nivel de criminalidad corregido (escala 1 al 5).
+* **En el Código:** Se utilizarán las librerías `seaborn` y `matplotlib` en Python para generar gráficos de dispersión (`sns.scatterplot`) con líneas de tendencia que midan la correlación de Pearson entre el precio de Airbnb (`price`) y el costo de la propiedad (`average_sale_price`). Asimismo, se analizará estadísticamente el impacto del riesgo usando diagramas de cajas (`sns.boxplot`) segmentados por el nivel de criminalidad corregido (escala 1 al 5).
 
 ### 8.2. Implementación de la Solución Interactiva (Semanas 9-10)
 * **Objetivo:** Construir el Dashboard interactivo para que los inversionistas de la consultora puedan explorar los datos dinámicamente y localizar visualmente el "Punto Dulce" de inversión.
 * **Herramienta:** El despliegue se definirá mediante Power BI o Streamlit para asegurar que la visualización sea completamente dinámica, incorporando filtros por distrito (`neighbourhood_group`), rangos de presupuesto de capital y mapas interactivos basados en latitud y longitud.
 
 ### 8.3. Fase Predictiva con Machine Learning (Semana 11)
-* **Objetivo:** Entrenar un algoritmo de aprendizaje supervisado (Regresión Lineal Múltiple / Árboles de Decisión) que permita predecir la tarifa óptima por noche ($Y$) de una nueva propiedad introducida al mercado basándose en variables predictoras clave ($X_i$):
-  Price = beta_0 + beta_1(average\_sale\_price) + beta_2(text{crime\_rate) + beta_3(room\_type) + \epsilon$$
-* **Métricas de Éxito:** Se evaluará rigurosamente el rendimiento del modelo utilizando el coeficiente de determinación ($R^2$) y el Error Absoluto Medio (MAE) para cumplir con el estándar técnico exigido.
+* **Objetivo:** Entrenar un algoritmo de aprendizaje supervisado (Regresión Lineal Múltiple / Árboles de Decisión) que permita predecir la tarifa óptima por noche de una nueva propiedad introducida al mercado basándose en variables predictoras clave.
 
 ### 8.4. Fase Prescriptiva y Conclusiones (Semana 12)
 * **Objetivo:** Traducir las métricas estadísticas y las predicciones del modelo en recomendaciones estratégicas de negocio ("¿Qué pasaría si...?").
