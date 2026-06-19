@@ -22,7 +22,10 @@
 ## 2. DESCRIPCIÓN DEL PROBLEMA DE NEGOCIO
 
 Los propietarios independientes y gestores de propiedades turísticas (anfitriones boutique) que operan en la plataforma Airbnb en la ciudad de Nueva York se enfrentan a un complejo dilema operativo y de posicionamiento comercial. Maximizar los ingresos requiere equilibrar de manera óptima la fijación de tarifas diarias (precios premium) con el mantenimiento de una alta tasa de ocupación (mínimos días de ociosidad anual). Mientras que las zonas con una altísima densidad turística (como Manhattan o Brooklyn) permiten validar tarifas por noche elevadas debido a su atractivo entorno, también se enfrentan a mercados hipercompetitivos y saturados de oferta, lo que puede elevar la volatilidad de la ocupación. Por otro lado, posicionar anuncios en distritos periféricos ofrece la ventaja de mercados menos saturados, pero expone a los gestores a una demanda turística más inestable y a variables de entorno externas, como los índices de criminalidad local, que impactan directamente en la reputación del anuncio y la confianza del huésped.
+
 Actualmente, las decisiones de tarificación y posicionamiento estratégico se toman de forma aislada basándose en intuiciones empíricas o análisis parciales de la plataforma. La falta de un framework analítico centralizado que integre de manera limpia el rendimiento interno del alojamiento (Airbnb) con factores del entorno inmediato (seguridad ciudadana y tracción del vecindario) impide identificar con precisión el "Punto Dulce" (Sweet Spot) operativo: zonas geográficas y características clave del anuncio que garanticen un equilibrio perfecto entre tarifas premium, alta ocupación y entornos seguros para el turista.
+
+
 ---
 
 ## 3. OBJETIVOS DEL PROYECTO
