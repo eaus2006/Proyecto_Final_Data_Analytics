@@ -21,29 +21,28 @@
 
 ## 2. DESCRIPCIÓN DEL PROBLEMA DE NEGOCIO
 
-Los inversionistas independientes y firmas boutique que buscan ingresar al mercado de alquileres temporales en la plataforma Airbnb en Nueva York se enfrentan a un complejo dilema estratégico que equilibra la rentabilidad potencial y el riesgo financiero. Las zonas tradicionales con un valor de propiedad masivo (como Manhattan) garantizan tarifas por noche elevadas, pero exigen un costo de adquisición de inmuebles prohibitivo, ralentizando el Retorno de Inversión (ROI). Por otro lado, los distritos periféricos ofrecen costos de entrada accesibles, pero exponen al inversor a una mayor volatilidad en la demanda turística y a riesgos de seguridad ciudadana que impactan directamente en la tasa de vacancia.
+Los propietarios independientes y gestores de propiedades turísticas (anfitriones boutique) que operan en la plataforma Airbnb en la ciudad de Nueva York se enfrentan a un complejo dilema operativo y de posicionamiento comercial. Maximizar los ingresos requiere equilibrar de manera óptima la fijación de tarifas diarias (precios premium) con el mantenimiento de una alta tasa de ocupación (mínimos días de ociosidad anual). Mientras que las zonas con una altísima densidad turística (como Manhattan o Brooklyn) permiten validar tarifas por noche elevadas debido a su atractivo entorno, también se enfrentan a mercados hipercompetitivos y saturados de oferta, lo que puede elevar la volatilidad de la ocupación. Por otro lado, posicionar anuncios en distritos periféricos ofrece la ventaja de mercados menos saturados, pero expone a los gestores a una demanda turística más inestable y a variables de entorno externas, como los índices de criminalidad local, que impactan directamente en la reputación del anuncio y la confianza del huésped.
 
-Actualmente, las decisiones de inversión se toman de forma aislada basándose en intuiciones o un solo dataset. La falta de una herramienta analítica centralizada que integre de manera limpia el costo de adquisición de la propiedad (Rolling Sales de la ciudad) con métricas operativas de turismo digital (Airbnb) impide identificar con precisión el "Punto Dulce" (Sweet Spot): zonas geográficas con precios de entrada moderados, tasas de delincuencia controladas y flujos de caja atractivos.
-
+Actualmente, las decisiones de tarificación y posicionamiento estratégico se toman de forma aislada basándose en intuiciones empíricas o análisis parciales de la plataforma. La falta de un framework analítico centralizado que integre de manera limpia el rendimiento interno del alojamiento (Airbnb) con factores del entorno inmediato (seguridad ciudadana y tracción del vecindario) impide identificar con precisión el "Punto Dulce" (Sweet Spot) operativo: zonas geográficas y características clave del anuncio que garanticen un equilibrio perfecto entre tarifas premium, alta ocupación y entornos seguros para el turista.
 ---
 
 ## 3. OBJETIVOS DEL PROYECTO
 
 ### **OBJETIVO PRINCIPAL:**
-Desarrollar un framework de analítica de datos mediante la integración de fuentes de enriquecimiento públicas y privadas, con el fin de identificar las zonas geográficas óptimas en la ciudad de Nueva York que maximicen el rendimiento financiero para inversiones en Airbnb, minimizando simultáneamente el riesgo de adquisición inmobiliaria y los índices de inseguridad ciudadana.
+Desarrollar un framework de analítica de datos mediante la integración de métricas de turismo digital y variables de entorno, con el fin de identificar las características y zonas geográficas óptimas en Nueva York que determinen un precio premium y una alta ocupación en Airbnb, orientando estratégicamente a propietarios y gestores en la optimización de sus ingresos y el posicionamiento seguro de sus alojamientos.
 
 ### **OBJETIVOS ESPECÍFICOS:**
-* OE1: Evaluar la relación económica entre el costo promedio de mercado de los bienes raíces por distrito y el precio de cotización diaria en la plataforma Airbnb.
-  * Hipótesis 1 (H1): ¿Existe una correlación lineal positiva y fuerte ($r > 0.70$) entre el precio promedio de venta de las propiedades inmobiliarias (SALE PRICE) y la tarifa por noche (price) de los alojamientos en Airbnb a nivel de distritos?
+* OE1: Evaluar la relación económica entre el valor patrimonial del suelo (entorno inmobiliario) por distrito y la tarifa diaria de los alojamientos en la plataforma Airbnb.
+  * Hipótesis 1 (H1): ¿Existe una correlación lineal positiva y fuerte ($r > 0.70$) entre el precio promedio de venta de las propiedades inmobiliarias de la zona (SALE PRICE) y la tarifa por noche (price) de los alojamientos en Airbnb, demostrando que el costo del entorno determina el potencial de un precio premium?
 
-* 0E2: Analizar el impacto de los niveles de seguridad ciudadana sobre las tarifas y la competitividad de los alojamientos turísticos.
-  * Hipótesis 2 (H2): ¿Los distritos catalogados con niveles de criminalidad altos (como el Bronx) presentan una mediana de precio de alquiler significativamente menor y una menor densidad de ofertas en comparación con distritos considerados de alta seguridad (como Staten Island o Manhattan)?
+* 0E2: Analizar el impacto de los niveles de seguridad ciudadana del entorno sobre las tarifas y la competitividad de los alojamientos turísticos.
+  * Hipótesis 2 (H2): ¿Los distritos catalogados con niveles de riesgo por criminalidad altos (como Manhattan o Brooklyn, niveles 5 y 4) presentan una distribución de precios con techos económicos más altos y una mayor densidad de ofertas en comparación con distritos de riesgo bajo, demostrando que la alta tracción turística absorbe el factor de riesgo público?
  
-* (OE3): Determinar la dinámica entre la política de precios por noche y la tasa de ocupación/disponibilidad anual del inmueble.
-  * Hipótesis 3 (H3): ¿Existe una relación inversa entre el precio de alquiler (price) y la disponibilidad anual de la propiedad (availability_365), sugiriendo que los alojamientos con tarifas premium experimentan una menor rotación de huéspedes y mayor tiempo ociosos en el mercado?
+* (OE3): Determinar la dinámica entre la política de precios por noche y la tracción operativa (disponibilidad anual del inmueble).
+  * Hipótesis 3 (H3):¿Existe una relación inversa entre el precio de alquiler (price) y la disponibilidad anual de la propiedad (availability_365), sugiriendo que los alojamientos con tarifas premium experimentan una menor rotación de huéspedes y mayor tiempo ociosos en el mercado si su entorno no lo justifica?
 
-* (OE4): Identificar el "Punto Dulce" de inversión inmobiliaria mediante un análisis de eficiencia multivariable (Costo - Seguridad - Retorno).
-  * Hipótesis 4 (H4): ¿Existen vecindarios específicos en distritos periféricos (como Brooklyn o Queens) que registren un índice de eficiencia superior (Alta tarifa de Airbnb / Bajo costo de adquisición) manteniendo un nivel de criminalidad calificado como moderado o bajo?
+* (OE4): Identificar el "Punto Dulce" (Sweet Spot) de eficiencia en la periferia de la ciudad mediante un análisis multivariable (Valor de la Zona - Seguridad - Retorno del Alojamiento).
+  * Hipótesis 4 (H4): ¿Existen vecindarios específicos en distritos periféricos con costos de entorno moderados que registren un índice de eficiencia superior (Alta tarifa de Airbnb / Bajo costo del suelo de la zona) manteniendo un nivel de riesgo por criminalidad controlado o intermedio (como Queens o El Bronx), orientando a los gestores sobre dónde posicionar alojamientos altamente competitivos?
 
 ## 4. DESCRIPCIÓN DE LOS DATOS
 
