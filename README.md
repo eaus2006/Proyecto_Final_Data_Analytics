@@ -1,4 +1,4 @@
-PROYECTO FINAL: AD3005 - INTRODUCCIÓN A DATA ANALYTICS Y BIG DATA
+## PROYECTO FINAL: AD3005 - INTRODUCCIÓN A DATA ANALYTICS Y BIG DATA
 UNIVERSIDAD DE INGENIERÍA Y TECNOLOGÍA (UTEC)
 Administración & Negocios Digitales | Ciclo 2026-1
 CASO DE USO: CASO 3 - TURISMO DIGITAL Y PRECIOS DE ALOJAMIENTO EN NYC
@@ -85,3 +85,14 @@ El desarrollo técnico liderado en Python se rigió bajo estrictos estándares d
 Estrategias de Ingesta: Diseño de funciones vectorizadas para acelerar la fusión (merge) libre de nulos entre el dataset base y las capas de enriquecimiento.
 
 Optimización de Modelos: Ajuste hiperparamétrico guiado para optimizar la convergencia de las funciones de pérdida en los modelos con variables transformadas mediante log1p().
+
+7. ## Distribución de Responsabilidades
+
+| Integrante      | Responsabilidad Principal                                                                                                                                  |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Eurymar Umbria  | Integración de datos, limpieza, EDA, validación de hipótesis, modelado predictivo, comparación de modelos, simulación de escenarios y coordinación general |
+| Giraldo Ruiz    | Desarrollo del dashboard                                                                                                                                   |
+| Luciana Pacheco | Informe final y presentación                                                                                                                               |
+| Manuel Aguirre  | Apoyo en revisión de datos y presentación                                                                                                                  |
+| Matias Amaya    | Apoyo en QA, revisión de resultados y presentación                                                                                                         |
+
