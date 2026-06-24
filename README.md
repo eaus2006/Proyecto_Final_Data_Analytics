@@ -158,25 +158,17 @@ El equipo ha estructurado el desarrollo de la fase final del proyecto de acuerdo
 
 
 
+## Cronograma del Proyecto
+
 | Semana | Actividad Principal | Responsable(s) |
-
-| :--- | :--- | :--- |
-
-| **7 - 8** | **Analítica Diagnóstica:** Validación de las 4 hipótesis mediante análisis de datos bivariado y multivariable en Python. | Eurymar Umbria |
-
-| **9 - 10** | **Construcción del Dashboard:** Diseño de visualizaciones interactivas y dinámicas enfocadas en la toma de decisiones. | Giraldo Ruiz, Manuel Aguirre |
-
-| **11** | **Analítica Predictiva:** Implementación de modelos de aprendizaje supervisado (Machine Learning) para la estimación de tarifas. | Eurymar Umbria  |
-
-| **12** | **Análisis Prescriptivo:** Simulación de escenarios de inversión y formulación de recomendaciones corporativas finales. | Eurymar Umbria, Mnuel y Matias |
-
-| **13** | **Documentación Final y QA:** Consolidación del informe técnico en GitHub y control de calidad del código. | Matias Amaya y Manuel |
-
-| **13** | **Preparación de la Presentación:** Diseño de diapositivas finales y ensayo de la sustentación oral colectiva. | Todo el Equipo |
-
-| **14** | **Cierre del Proyecto:** Entrega del repositorio final y evaluación de desempeño del equipo consultor. | Todo el Equipo |
-
-
+|---------|--------------------|----------------|
+| **7 - 8** | Validación de las 4 hipótesis mediante análisis de datos bivariado y multivariable en Python. | **Eurymar Umbria** |
+| **9 - 10** | Diseño y desarrollo del dashboard interactivo para la visualización de resultados y apoyo a la toma de decisiones. | **Giraldo Ruiz** |
+| **11** | Implementación y evaluación de modelos de Machine Learning para la estimación de tarifas de alojamiento. | **Eurymar Umbria** |
+| **12** | Simulación de escenarios de inversión, análisis prescriptivo y formulación de recomendaciones estratégicas. | **Eurymar Umbria, Manuel Aguirre y Matias Amaya** |
+| **13** | Consolidación de la documentación técnica, revisión de resultados y control de calidad del proyecto. | **Matias Amaya y Manuel Aguirre** |
+| **13** | Elaboración de diapositivas finales y preparación de la sustentación. | **Todo el equipo** |
+| **14** | Entrega final del proyecto y cierre de actividades. | **Todo el equipo** |
 
 ---
 
@@ -254,5 +246,5 @@ A partir de la base de datos unificada en el entorno de desarrollo (Google Colab
 
 * **Objetivo:** Traducir las métricas estadísticas y las predicciones del modelo en recomendaciones estratégicas de negocio ("¿Qué pasaría si...?").
 
-* **Impacto:** Las prescripciones orientarán las decisiones de la consultora detallando con precisión qué vecindarios específicos de distritos periféricos ofrecen el mejor retorno financiero con una exposición al riesgo controlada. TE PASO MI COLAB Q SE SUBIO TMB AL GITHUB Y DONDE YA ESTA TODO 
+* **Impacto:** Las prescripciones orientarán las decisiones de la consultora detallando con precisión qué vecindarios específicos de distritos periféricos ofrecen el mejor retorno financiero con una exposición al riesgo controlada. 
 
